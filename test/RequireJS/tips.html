@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="../../build/css/metro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" >
+ <script src="js/menu.js" type="text/javascript"></script> 
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+
+    </style><style type="text/css">
+    header {
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+  background:black;
+}
+ 
+.wrapper {
+  width:100%; /* Establecemos que el ancho sera del 90% */
+ /* Aqui le decimos que el ancho m&aacute;ximo sera de 1000px */
+  margin:auto; /* Centramos los elementos */
+  overflow:hidden; /* Eliminamos errores de float */
+}
+ 
+header .logo {
+  color:#f2f2f2;
+  font-size:50px;
+  line-height: 50px;
+  float:right;
+}
+ 
+header nav {
+  float:right;
+  line-height:50px;
+}
+ 
+header nav a {
+  display:inline-block;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 20px;
+  line-height:normal;
+  font-size:15px;
+  font-weight:bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+  background:#f56f3a;
+  border-radius:23px;
+}
+
+
+.header2 {
+  position: fixed;
+  height:100px;
+}
+ 
+.header2 .logo {
+  line-height:100px;
+  font-size:30px;
+}
+ 
+.header2 nav {
+  line-height:50px;
+}
+
+
+@media screen and (max-width: 950px) {
+  header .logo,
+  header nav {
+    width:100%;
+    text-align:center; /*Centramos el menu y el logotipo*/
+    line-height:50px;
+  }
+ 
+  .header2 {
+    height:auto;
+  }
+ 
+  .header2 .logo,
+  .header2 nav {
+    line-height:50px;
+  }
+}
+
+ progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+}</style>
+
+  
+ 
+  </head>
+  <body style="background-color: #efefef;" >
+
+
+
+
+       
+<nav class="navbar navbar-default" style="margin-bottom: 0px;"> <a class="navbar-brand" href="index.php" style="padding: 0px 0px !important;margin-bottom: 0px;"><img src="images/logo.png"></a>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Navegación Menú</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav"> 
+
+
+
+       
+             <li><a href="speedtest.php"><strong  style="color:#16bd00;">DIAGNÓSTICO</strong></a></li>
+               <li><a href="misresultados.php">MIS RESULTADOS</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">MAPAS <span class=""></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#">FILTROS DE MAPA:</a></li>
+           <li role="separator" class="divider"></li>
+            <li><a href="speedmap.php">VELOCIDAD</a></li>
+              <li><a href="efmap.php">EFICIENCIA</a></li>
+           <li><a href="#">ISP (PRÓXIMAMENTE)</a></li>
+
+
+
+          </ul>
+        </li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right"> <li><a href="vdi.html">FAQ Y CONDICIONES</a></li>
+               <li ><a href="tips.html">ESTADO DEL SISTEMA</a></li>
+      <li><a target="_blank" href="https://www.informatica2017.cl/#contact">CONTACTO</a></li>
+     
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<div style="
+    margin: auto;
+    max-width: 1024px;
+    margin-top: 4%;
+">
+<h1 style="
+   color: black; text-align: center;font-size: 24px;
+"><strong>RECOMENDACIONES</strong></h1><br>
+<div class="grid" style="
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow: aqua;
+    /* display: block; */
+">
+    <div class="row">
+        <div class="cell">
+<h2 style="font-size: 20px;color: #28c13b;">Requerimientos mínimos para un diagnóstico óptimo:</h2><br>
+   <blockquote style="font-size: 15px;color: black;">
+                <p>1. Para un diagnóstico óptimo debe estar conectado a internet mediante cable de red.</p>
+                <p>2. Utilizar algún navegador como; Chrome, Safari, Firefox, Opera.</p>
+                 <p>3. Android 4.0+ / macOS 10+ / GNU/Linux / Windows / Windows Phone.</p>
+                 <p>4. Conocer su plan de internet.</p>
+                 <p>5. Permitir geolocalización.</p>
+                <small style="
+    COLOR: black;
+">Equipo <cite title="Source Title" style="
+    COLOR: black;
+"> Velocidad<span style="color:#28c13b;">De</span>Internet.cl</cite></small>
+            </blockquote></div>
+    </div>
+</div>
+
+
+<div class="grid" style="
+    background-color: rgba(13, 183, 0, 0.02);
+    box-shadow: aqua;
+    /* display: block; */
+">
+    <div class="row">
+        <div class="cell"><h1 style="
+   color: black; text-align: center;font-size: 24px;
+"></h1><br>
+<h2 style="font-size: 20px;color: #28c13b;">Recomendaciones para obtener mejores resultados</h2><br>
+   <blockquote style="font-size: 15px;color: black;">
+                <p>1. Realizar la medici&oacute;n mediante conexi&oacute;n por cable. (A excepción de equipos móviles conectados a 2/3/4G.</p>
+                <p>2. Desconectar todos los equipos de internet a excepción del equipo que realizará el diagnóstico.</p>
+                 <p>3. Realizar 3 veces el diagn&oacute;stico (mañana,tarde,noche), para poder entregar informaci&oacute;n detallada.</p>
+                 <p>4. No descargar información mientras se realiza el test.</p>
+                 <p><strong>5. Repetir el test varios días para obtener mejores resultados.</strong></p>
+                <small style="
+    COLOR: black;
+">Equipo <cite title="Source Title" style="
+    COLOR: black;
+"> Velocidad<span style="color:#28c13b;">De</span>Internet.cl</cite></small>
+            </blockquote></div>
+    </div>
+</div>
+
+
+
+
+<div class="grid" style="
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow: aqua;
+    /* display: block; */
+">
+    <div class="row">
+        <div class="cell"><h1 style="
+    text-align: center;
+"></h1><br>
+<h2 style="color: #28c13b;font-size: 20px;">Datos del diagnóstico</h2><br>
+   <blockquote style="font-size: 15px;color: black;">
+                <p>Los valores obtenidos por el diagnóstico son estimaciones de nuestro sistema, por lo que puede presentar variaciones respecto a otras mediciones.</p>
+                <p>El valor asignado a cada Mbps de internet, se obtiene de la suma de los valores promedios de cada ISP (Chile). A su vez cada valor promedio se obtiene tomando el plan de internet hogar más alto y diviendo los Mbps por el costo final.</p>
+                         <p>Además dentro de la sección mapas, se puede revisar la información de la red en general, para realizar distintos tipos análisis.</p>
+                  </ul>
+                <small style="
+    COLOR: black;
+">Equipo <cite title="Source Title" style="
+    COLOR: black;
+"> Velocidad<span style="color:#28c13b;">De</span>Internet.cl</cite></small>
+            </blockquote></div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+     <div style="display: block;width: 100%;height: 50px;float: left;position: relative;background-color: rgba(0, 0, 0, 0.18);text-align: center;font-size:large;margin-top: 0%;">
+<br>
+<a target="_blank" href="https://www.informatica2017.cl">INFORMATICA2017</a> - <span style="color:white;"> info@informatica2017.cl
+</span>
+</div>
+
+
+
+                <!-- Main content -->
+           
+               
+ 
+
+              <!-- row end -->
+
+<!-- ./wrapper -->
+   <script data-main="scripts/main" src="scripts/require.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
